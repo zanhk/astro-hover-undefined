@@ -1,0 +1,23 @@
+---
+const variable = 'Astro';
+
+// try set a breakpoint on line 7 and go hover with the mouse on variable (line 2), it will show undefined
+// but if you look at the variables panel, you will see the variable value
+
+const astroSite = Astro.site;
+
+const variable2 = 'Astro2';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>Astro</h1>
+	</body>
+</html>
